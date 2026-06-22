@@ -1,5 +1,5 @@
-app = "lupe-bot-tuapellido"
-primary_region = "scl"
+app = "lupe-bot"
+primary_region = "gru"
 
 [build]
 
