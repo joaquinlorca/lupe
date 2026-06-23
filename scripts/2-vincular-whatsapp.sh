@@ -12,6 +12,7 @@ echo
 echo "Presiona Enter para continuar..."
 read
 
+cd "$(dirname "$0")/.."
 export PUPPETEER_EXECUTABLE_PATH=$(which chromium-browser || which chromium)
 node src/setup.js
 
